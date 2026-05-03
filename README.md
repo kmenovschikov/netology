@@ -1,4 +1,8 @@
+Курс: [Devops-инженер с нуля: расширенный курс](https://netology.ru/programs/fullstack-devops#/)  
+Начало обучения: 12 ноября 2025г  
+
 💻 = Практические занятия  
+  
   
 ├───DevOps  
 │&emsp;&emsp;│&emsp;&emsp;💻 1 Архитектура компьютера и ОС  

@@ -1,9 +1,10 @@
-Курс: [Devops-инженер с нуля: расширенный курс](https://netology.ru/programs/fullstack-devops#/)  
+### Курс: [Devops-инженер с нуля: расширенный курс](https://netology.ru/programs/fullstack-devops#/)  
 Начало обучения: 12 ноября 2025г  
+Окончание: 11 мая 2027г  
+#
+💻 = Практические занятия   
 
-💻 = Практические занятия  
-  
-  
+    
 ├───DevOps  
 │&emsp;&emsp;│&emsp;&emsp;💻 1 Архитектура компьютера и ОС  
 │&emsp;&emsp;│&emsp;&emsp;💻 2 Знакомство с операционной системой Linux  
@@ -184,4 +185,4 @@
 │&emsp;&emsp;&emsp;&emsp; 13 Практики внедрения Kanban  
 │&emsp;&emsp;&emsp;&emsp; 14 Scrum-мастер  
 │&emsp;&emsp;&emsp;&emsp; 15 Agile Коучинг  
-│&emsp;&emsp;&emsp;&emsp; 16 Команды и их построение  
+└──────16 Команды и их построение  

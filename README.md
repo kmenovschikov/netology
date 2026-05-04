@@ -67,12 +67,15 @@
 │      │       4 Kubernetes  
 │      │       5 Kubernetes. часть 2  
 │      │  
-│      └───6 Автоматизация и CI-CD  
-│               1 Ansible часть 1  
-│               2 Ansible часть 2  
-│               3 Terraform  
-│               4 CI-CD - GitHub + Jenkins + Nexus  
-│               5 CI-CD - GitLab  
+│      ├───6 Автоматизация и CI-CD  
+│      |        1 Ansible часть 1  
+│      |        2 Ansible часть 2  
+│      |        3 Terraform  
+│      |        4 CI-CD - GitHub + Jenkins + Nexus  
+│      |        5 CI-CD - GitLab  
+|      |
+│      └───7 Мониторинг  
+│               1 Обзор систем ИТ-мониторинга 
 │  
 ├───Bash  
 │   │   💻 1 Переменные и условные операторы  

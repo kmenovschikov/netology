@@ -41,7 +41,8 @@
 |   |   💻 32 Резервное копирование - Rsync
 |   |   💻 33 Балансировка нагрузки в Яндекс.Облаке - Terraform + Ansible
 |   |   💻 34 Базы данных и их типы
-|   |   💻 35 Кеширование - Redis - Memcached
+|   |   💻 35 Кеширование - Redis - Memcached 36 Elasticsearch - Kibana - Logstash
+|   |   💻 36 Хранение и мониторинг - Elasticsearch - Kibana - Logstash
 │   │  
 │   └───Материалы  
 │       ├───1 IT-системы и операционная система Linux  
@@ -102,7 +103,7 @@
 │       └───9 Системы хранения и передачи данных
 │                1 Базы данных и их типы
 |                2 Кеширование - Redis - Memcached
-|                3 
+|                3 Хранение и мониторинг - Elasticsearch - Kibana - Logstash
 |                4 
 |      
 ├───Bash  

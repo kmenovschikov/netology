@@ -43,6 +43,7 @@
 |   |   💻 34 Базы данных и их типы
 |   |   💻 35 Кеширование - Redis - Memcached 36 Elasticsearch - Kibana - Logstash
 |   |   💻 36 Хранение и мониторинг - Elasticsearch - Kibana - Logstash
+|   |   💻 37 Очереди RabbitMQ
 │   │  
 │   └───Материалы  
 │       ├───1 IT-системы и операционная система Linux  

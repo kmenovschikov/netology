@@ -93,8 +93,9 @@
 │       │       1 Виртуализация и облачные решения. Яндекс Облако  
 │       │       2 Docker - Часть 1  
 │       │       3 Docker - Часть 2  
-│       │       4 Kubernetes - Часть 1 
-│       │       5 Kubernetes - Часть 2  
+|       |       4 Оркестрация Docker Swarm  
+│       │       5 Kubernetes - Часть 1   
+│       │       6 Kubernetes - Часть 2  
 │       │  
 │       ├───6 Автоматизация и CI-CD  
 │       |        1 Ansible - Часть 1  

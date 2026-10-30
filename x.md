@@ -282,12 +282,12 @@ ports:
 
 ![](./media/image8.png)
 
-5.  Удаляем compose.yaml
+5.  Удаляем docker-compose.yaml
 
 > docker compose up -d
 
-![](./media/image9.png)
+![](./media/image11.png)
 
-6.  docker rm -f \$(docker ps -aq)
+6.  docker compose down
 
 ![](./media/image10.png)

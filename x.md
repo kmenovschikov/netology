@@ -286,7 +286,9 @@ ports:
 
 > docker compose up -d
 
-![](./media/image11.png)
+![](./media/image12.png)
+
+Docker предупреждает, что найдены контейнеры, которые не описаны в файле.
 
 6.  docker compose down
 

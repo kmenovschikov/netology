@@ -36,7 +36,7 @@ Hey, Netology
 
 **sudo nano Dockerfile**
 
-FROM nginx
+FROM nginx:1.29.0
 
 COPY index.html /usr/share/nginx/html/index.html
 
@@ -68,7 +68,7 @@ COPY index.html /usr/share/nginx/html/index.html
 
 **Решение**
 
-1.  docker run --name kmenovschikov-custom-nginx-t2 -d -p 8080:80 kmenovschikov/custom-nginx:1.0.0
+1.  docker run --name kmenovschikov-custom-nginx-t2 -d -p 127.0.0.1:8080:80 kmenovschikov/custom-nginx:1.0.0
 
 2.  docker stop kmenovschikov-custom-nginx-t2
 
@@ -114,7 +114,7 @@ docker start custom-nginx-t2
 
 Ctrl+C
 
-> По умолчанию комбинация **Ctrl+C** отправляет сигнал SIGINT (прерывание) контейнеру, что приводит к его остановке.
+> Когда вы нажимаете Ctrl+C, ваш терминал генерирует сигнал SIGINT и передаёт его процессу, который управляет контейнером. В Linux этот процесс имеет PID 1. По умолчанию этот сигнал означает прерывание (interrupt) — запрос на остановку. Если процесс не установил собственный обработчик сигнала, система по умолчанию завершает его работу, что приводит к остановке всего контейнера.
 
 ![](./media/image3.png)
 
@@ -154,7 +154,7 @@ docker run --name cent -d -v ./:/data centos:centos7 sleep infinity
 
 docker exec cent touch /data/from_centos.txt
 
-docker run --name cent -d -v ./:/data debian:latest sleep infinity
+docker run --name debian -d -v ./:/data debian:latest sleep infinity
 
 touch from_host.txt
 
@@ -231,6 +231,10 @@ ports:
 2.  
 
 version: "3"
+
+include:  
+   
+  \- docker-compose.yaml  
 
 services:
 
